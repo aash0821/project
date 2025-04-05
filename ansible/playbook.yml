@@ -1,0 +1,9 @@
+---
+- hosts: node
+  become: true
+  tasks:
+    - name:  Enable Docker
+      service:
+        name: docker
+        state: started
+        enabled: yes
