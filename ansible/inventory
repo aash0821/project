@@ -1,6 +1,2 @@
-kmaster
 [node]
-kslave1
-[all]
-kmaster
-kslave1
+kslave1 ansible_user=edureka ansible_ssh_private_key_file=/home/edureka/.ssh/id_rsa
